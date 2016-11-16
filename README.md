@@ -16,11 +16,11 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
 ### 자료안내
 
-- 01. InAngle
+- InAngle
 
  - VanilaJS, jQuery의 생산성을 비교하여 간접적으로 AngularJS의 생산성을 안내.
 
-- 02. Definition
+- Definition
 
  - VanilaJS와 AngularJS 1.x을 비교하여 코딩 스타일의 차이점을 공유.
 
