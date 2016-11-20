@@ -20,6 +20,10 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
  0. 표지
 
+### 발표주제
+
+ 0. 표지
+
   1. 발표자 소개
 
  1. AngularJS?
@@ -43,8 +47,7 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
   1. Overview
   2. 퍼포먼스
-  3. 특성
-  4. 결론
+  3. 결론
 
  6. Power Ups
 
