@@ -14,7 +14,7 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
 ----
 
-### 추가 예 항목
+### 추가 예정 항목
 
  1. ReactJS vs AngularJS 2 Performance
 
