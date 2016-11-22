@@ -16,6 +16,8 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
 ### Benchmark
 
+> Score: millisecond time
+
 ![Benchmark data](http://www.nhpcw.com/upload/specs_112216074921.png)
 
 ----
