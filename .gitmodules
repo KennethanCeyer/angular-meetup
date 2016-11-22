@@ -1,0 +1,3 @@
+[submodule "03. Benchmark"]
+	path = 03. Benchmarks
+	url = git@github.com:KennethanCeyer/AngularJS-vs-ReactJS-Benchmark.git
