@@ -93,4 +93,4 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
 ### 끝으로
 
-- 혹시 다른 의견이나 문제점이 있다면 [kennethan@nhpcw.com](mailto://kennethan@nhpcw.com)로 알려주시기 바랍니다.
+- 혹시 다른 의견이나 문제점이 있다면 [GitHub 이슈](https://github.com/KennethanCeyer/AngularJS-Best-Practices/issues) 혹은 해당 페이지 상단의 Gitter를 통해 문의주시면 감사하겠습니다.
