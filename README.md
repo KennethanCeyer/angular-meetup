@@ -14,13 +14,11 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
 ----
 
-### 추가 예정 항목
+### Benchmark
 
- 1. ReactJS vs AngularJS 2 Performance
+> Score: millisecond time
 
-  - 5000, 10000, 50000 행 추가, 삭제 바인딩 퍼포먼스.
-  - 50000 행 무작위 200개 행 삭제 바인딩 퍼포먼스.
-  - 100, 100 행 Nested 행 바인딩 퍼포먼스.
+![Benchmark data](http://www.nhpcw.com/upload/specs_112216074921.png)
 
 ----
 
