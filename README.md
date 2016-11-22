@@ -18,6 +18,8 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
 > Score: millisecond time
 
+- 벤치마크 정보는 [해당 리포지토리](https://github.com/KennethanCeyer/AngularJS-vs-ReactJS-Benchmark/blob/master/README.md)와 관련되어 있습니다.
+
 ![Benchmark data](http://www.nhpcw.com/upload/specs_112216074921.png)
 
 ----
