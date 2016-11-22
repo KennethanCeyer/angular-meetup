@@ -55,12 +55,7 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
   2. 퍼포먼스
   3. 결론
 
- 6. Power Ups
-
-  1. AngularJS X Bootstrap
-  2. AngularJS X Ionic
-
- 7. 끝으로
+ 6. 끝으로
 
   1. Question?
   2. Thank you.
