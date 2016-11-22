@@ -3,10 +3,17 @@ html, body {
 }
 
 .works-header .works-header-inner .works-header-action h1 {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
     margin: 0;
     padding: 0;
     font-size: 160%;
     font-weight: 400;
+}
+
+.works-header .works-header-inner .works-header-action * {
+    vertical-align: middle;
 }
 
 .works-header .works-header-inner .works-header-action h1 a:hover {
@@ -17,6 +24,10 @@ html, body {
     line-height: 2;
     font-size: 115%;
     margin-bottom: 2em;
+}
+
+.works-content {
+    top: 128px;
 }
 
 .works-section .section-inner p {

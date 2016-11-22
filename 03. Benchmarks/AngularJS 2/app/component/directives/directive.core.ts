@@ -1,7 +1,7 @@
 import { Directive, ElementRef, Renderer } from '@angular/core';
 
 @Directive({
-    selector: 'a'
+    selector: 'a',
     host: {
         '(click)': 'onClick($event)'
     }

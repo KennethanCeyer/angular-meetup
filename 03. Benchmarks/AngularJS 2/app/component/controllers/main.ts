@@ -14,17 +14,13 @@ export class MainCtrl {
     templateUrl: '../views/main/benchmark/1.html'
 })
 export class MainBench1Ctrl {
-    private zone :NgZone;
-    public list :Array<any> = [];
+    private initialized :boolean = false;
+    public list :Array<Object> = [];
+    private timeStart :number = -1;
     public timeSpend :number = -1;
 
-    constructor(zone:NgZone) {
-        this.zone = zone;
-    }
-
     benchmark() {
-        let bufferList :Array<any> = [];
-        let currentTime = new Date().getMilliseconds();
+        let bufferList :Array<Object> = [];
         this.list = [];
 
         for(var i=0; i<10000; i++) {
@@ -34,12 +30,19 @@ export class MainBench1Ctrl {
             });
         }
 
-        this.zone.run(() => {
-            this.list = bufferList;
-        });
+        this.initialized = true;
+        this.timeStart = new Date().getTime();
+        this.list = bufferList;
+    }
 
-        this.timeSpend = new Date().getMilliseconds() - currentTime;
-        console.log(this.timeSpend);
+    ngAfterViewChecked() {
+        let _this :any = this;
+        if(this.initialized === true) {
+            this.initialized = false;
+            setTimeout(function() {
+                _this.timeSpend = (new Date().getTime() - _this.timeStart).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }, 0);
+        }
     }
 };
 
@@ -49,14 +52,13 @@ export class MainBench1Ctrl {
     templateUrl: '../views/main/benchmark/2.html'
 })
 export class MainBench2Ctrl {
-    private zone :NgZone;
-    public list :Array<any> = [];
+    private initialized :boolean = false;
+    public list :Array<Object> = [];
+    private timeStart :number = -1;
     public timeSpend :number = -1;
 
-    constructor(zone:NgZone) {
-        this.zone = zone;
-
-        let bufferList :Array<any> = [];
+    constructor() {
+        let bufferList :Array<Object> = [];
         let currentTime = new Date().getMilliseconds();
         this.list = [];
 
@@ -67,15 +69,28 @@ export class MainBench2Ctrl {
             });
         }
 
-        this.zone.run(() => {
-            this.list = bufferList;
-        });
+        this.list = bufferList;
     }
 
     benchmark() {
+        let bufferList :Array<Object> = this.list;
         for(let i=0; i<5000; i++) {
-            let index :number = parseInt(Math.random() * this.list.length);
-            this.list.splice(index, 1);
+            let index :number = parseInt((Math.random() * bufferList.length).toString());
+            bufferList.splice(index, 1);
+        }
+
+        this.initialized = true;
+        this.timeStart = new Date().getTime();
+        this.list = bufferList;
+    }
+
+    ngAfterViewChecked() {
+        let _this :any = this;
+        if(this.initialized === true) {
+            this.initialized = false;
+            setTimeout(function() {
+                _this.timeSpend = (new Date().getTime() - _this.timeStart).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }, 0);
         }
     }
 };
@@ -86,16 +101,13 @@ export class MainBench2Ctrl {
     templateUrl: '../views/main/benchmark/3.html'
 })
 export class MainBench3Ctrl {
-    private zone :NgZone;
-    public list :Array<any> = [];
+    private initialized :boolean = false;
+    public list :Array<Object> = [];
+    private timeStart :number = -1;
     public timeSpend :number = -1;
 
-    constructor(zone:NgZone) {
-        this.zone = zone;
-    }
-
     benchmark() {
-        let bufferList :Array<Array<any>> = [];
+        let bufferList :Array<Array<Object>> = [];
         let currentTime = new Date().getMilliseconds();
         this.list = [];
 
@@ -110,8 +122,18 @@ export class MainBench3Ctrl {
             bufferList.push(subList);
         }
 
-        this.zone.run(() => {
-            this.list = bufferList;
-        });
+        this.initialized = true;
+        this.timeStart = new Date().getTime();
+        this.list = bufferList;
+    }
+
+    ngAfterViewChecked() {
+        let _this :any = this;
+        if(this.initialized === true) {
+            this.initialized = false;
+            setTimeout(function() {
+                _this.timeSpend = (new Date().getTime() - _this.timeStart).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }, 0);
+        }
     }
 };

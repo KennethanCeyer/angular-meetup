@@ -10,7 +10,11 @@
         <h2 class="section-title">Benchmark 3</h2>
 
         <div class="guide">
-            1000개의 행의 20개의 열의 테이블을 만듭니다.
+            <p>1000개의 행의 20개의 열의 테이블을 만듭니다.</p>
+            <p class="guide-time" [hidden]="timeSpend === -1">
+                <strong>랜더링 반영시간</strong>
+                <span>{{timeSpend}} ms</span>
+            </p>
         </div>
 
         <a href="#" class="btn btn-material btn-primary btn-xg btn-block" (click)="benchmark();" style="max-width: 300px; margin: 0 auto;">
