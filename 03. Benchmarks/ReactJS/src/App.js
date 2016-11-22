@@ -32,7 +32,7 @@ class App extends Component {
                           <ul>
                             <li>
                                 <strong>Becnmark1</strong>
-                                <span>10,000 행에 대한 NgFor 성능 검증.</span>
+                                <span>10,000 행에 대한 state loop 성능 검증.</span>
                             </li>
                             <li>
                                 <strong>Becnmark2</strong>
@@ -40,7 +40,7 @@ class App extends Component {
                             </li>
                             <li>
                                 <strong>Becnmark3</strong>
-                                <span>1000 행 20 로우 중첩 NgFor에 대한 성능 검증.</span>
+                                <span>1000 행 20 로우 중첩 state loop에 대한 성능 검증.</span>
                             </li>
                           </ul>
                         </div>

@@ -1,9 +1,11 @@
 {
-  "name": "app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "reactjs-performance-benchmark",
+  "version": "1.0.0",
   "devDependencies": {
     "react-scripts": "0.7.0"
+  },
+  "licenses": {
+    "type": "MIT"
   },
   "dependencies": {
     "react": "^15.4.0",
