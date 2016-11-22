@@ -8,7 +8,7 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
 ### 들어가기에 앞서
 
-- 해당 Snippets과 문서는 상암 누리꿈스퀘어에서 진행하는 [XECon 2016](https://xecon2016.xpressengine.com/0)에서 발표 될 예정입니다.
+- 해당 Snippets과 문서는 상암 누리꿈스퀘어에서 진행하는 [XECon 2016](https://xecon2016.xpressengine.com)에서 발표 될 예정입니다.
 
 - 발표자료를 원하신다면 [kennethan@nhpcw.com](mailto://kennethan@nhpcw.com)를 통해 요청주시기 바랍니다.
 
