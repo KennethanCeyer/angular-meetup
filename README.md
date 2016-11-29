@@ -16,6 +16,12 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
 ----
 
+### 발표자료 참고
+
+[![발표자료](http://www.nhpcw.com/upload/slideshare_113016030824.jpg)](http://www.slideshare.net/KennethCeyer/angularjs-2-version-1-and-reactjs-69546904)
+
+----
+
 ### Benchmark
 
 > Score: millisecond time
