@@ -1,4 +1,4 @@
-# AngularJS-Best-Practices
+# Angular meetup
 
 [![Join the chat at https://gitter.im/KennethanCeyer/tutorial-git](https://badges.gitter.im/KennethanCeyer/tutorial-git.svg)](https://gitter.im/KennethanCeyer/PIGNOSE?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -18,7 +18,7 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
 ### 발표자료 참고
 
-![발표자료](http://www.pigno.se/static/assets/images/angular_meetup.png)
+[![발표자료](http://www.pigno.se/static/assets/images/angular_meetup.png)](https://www.slideshare.net/KennethCeyer/angularjs-2-version-1-and-reactjs-69546904)
 
 ----
 
