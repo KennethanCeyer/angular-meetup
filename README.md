@@ -18,7 +18,7 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
 ### 발표자료 참고
 
-[![발표자료](http://www.nhpcw.com/upload/slideshare_113016030824.jpg)](http://www.slideshare.net/KennethCeyer/angularjs-2-version-1-and-reactjs-69546904)
+![발표자료](http://www.pigno.se/static/assets/images/angular_meetup.png)
 
 ----
 
@@ -28,7 +28,7 @@ AngularJS의 장점과 타 도구와의 차이점을 Snippet을 통해 확인하
 
 - 벤치마크 정보는 [해당 리포지토리](https://github.com/KennethanCeyer/AngularJS-vs-ReactJS-Benchmark/blob/master/README.md)와 관련되어 있습니다.
 
-![Benchmark data](http://www.nhpcw.com/upload/specs_112216074921.png)
+![Benchmark data](http://www.pigno.se/static/assets/images/angular_benchmark.png)
 
 ----
 
